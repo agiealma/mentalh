@@ -4,106 +4,109 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Anxiety_Activity"
-    android:background="@drawable/tat">
+    tools:context=".Exercise_Activity"
+    android:background="@drawable/semi">
 
     <TextView
-        android:id="@+id/txtanxiety"
+        android:id="@+id/txt_thing"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="What is Anxiety?"
-        android:textColor="@color/white"
-        android:textSize="35sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.103"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.078" />
-
-    <TextView
-        android:id="@+id/txtone"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="It is a state of feeling worried uneasy about something."
-        android:textColor="@color/black"
+        android:text="Things to do instead of selfharming:"
         android:textSize="25dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.118"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.191" />
+        app:layout_constraintVertical_bias="0.068" />
 
     <TextView
-        android:id="@+id/txtsecond"
+        android:id="@+id/txt_change"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Signs of Anxiety:"
-        android:textColor="@color/white"
-        android:textSize="35sp"
+        android:text="Change your surrounding"
+        android:textSize="18dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.085"
+        app:layout_constraintHorizontal_bias="0.075"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.347" />
+        app:layout_constraintVertical_bias="0.196" />
 
-    <EditText
-        android:id="@+id/edt_swt"
+    <TextView
+        android:id="@+id/txt_listen"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Sweating"
-        android:textColor="@color/black"
-        android:textSize="30dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.057"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.467" />
-
-    <EditText
-        android:id="@+id/edt_trm"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Trembling"
-        android:textColor="@color/black"
-        android:textSize="30dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.059"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.576" />
-
-    <EditText
-        android:id="@+id/edt_feel"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Feeling weak or tired"
-        android:textColor="@color/black"
-        android:textSize="30dp"
+        android:text="Listen to a playlist"
+        android:textSize="18dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.126"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.682" />
+        app:layout_constraintVertical_bias="0.319" />
 
-    <EditText
-        android:id="@+id/edt_rpd"
+    <TextView
+        android:id="@+id/txt_cry"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Breathing rapidly"
-        android:textColor="@color/black"
-        android:textSize="30dp"
+        android:text="Cry "
+        android:textSize="18dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.089"
+        app:layout_constraintHorizontal_bias="0.119"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.807" />
+        app:layout_constraintVertical_bias="0.438" />
 
+    <TextView
+        android:id="@+id/txt_urges"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Write your urges"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.12"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.553" />
 
+    <TextView
+        android:id="@+id/txt_hold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hold something in your hand"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.087"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.669" />
+
+    <TextView
+        android:id="@+id/txt_move"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Move around"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.111"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.77" />
+
+    <TextView
+        android:id="@+id/txt_journal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click to open Journal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.91" />
 </androidx.constraintlayout.widget.ConstraintLayout>
